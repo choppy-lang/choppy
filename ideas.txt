@@ -1,0 +1,22 @@
+1. <any primitive>.is(a, b); - if value of datatype is `a`, then return `b` instead, removes `distort("someString").includes('someMatch') ? distort("someString") : "fallback string";`
+2. When you have a lot of complex stuff in a long if-chain and you divide it up like so:
+
+CONDITION ONE LOGIC
+
+if (conditionOne) {
+	return true;
+}
+
+CONDITION Two LOGIC
+
+if (conditionTwo) {
+	return true;
+}
+
+CONDITION THREE LOGIC
+
+if (conditionThree) {
+	return true;
+}
+
+Make an easier way to do this
